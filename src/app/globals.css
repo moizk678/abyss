@@ -18,8 +18,8 @@
 /* --- Design Tokens --- */
 :root {
   /* Colors — Warm Gallery Palette */
-  --color-bg: #F5F3EE;
-  --color-bg-alt: #EDEBE6;
+  --color-bg: #F9F7F2;
+  --color-bg-alt: #F4F2EE;
   --color-bg-card: #E8E5DF;
   --color-bg-overlay: rgba(245, 243, 238, 0.92);
   --color-text: #1A1A1A;

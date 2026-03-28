@@ -1,14 +1,18 @@
 .hero {
   position: relative;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
+  background-color: var(--color-bg);
   align-items: flex-end;
   overflow: hidden;
 }
 
 .bgImage {
   position: absolute;
-  inset: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 18vh;
   z-index: 0;
 }
 
@@ -112,7 +116,7 @@
 
 @media (max-width: 768px) {
   .hero {
-    min-height: 100svh;
+    min-height: 72svh;
   }
 
   .scrollHint {
